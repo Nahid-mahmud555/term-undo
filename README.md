@@ -13,6 +13,4 @@ Run this single command in your terminal (Works in **Normal User & Root Mode**, 
 ```bash
 curl -fsSL [https://raw.githubusercontent.com/nahid-mahmud555/term-undo/main/install.sh](https://raw.githubusercontent.com/nahid-mahmud555/term-undo/main/install.sh) | bash
 
-Then reload your configuration:
-
 source ~/.zshrc
