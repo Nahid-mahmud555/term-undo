@@ -122,7 +122,7 @@ The intended recovery workflow consists of the following steps:
 
 **GitHub Profile:** [@nahid-mahmud555](https://github.com/Nahid-mahmud555)
 
-**Repository:** [nahid-mahmud555/term-undo](https://github.com/nahid-mahmud555/term-undo)
+**Repository:** [nahid-mahmud555/term-undo](https://github.com/Nahid-mahmud555/term-undo)
 
 **Installation Script:** [install.sh](https://github.com/nahid-mahmud555/term-undo/blob/main/install.sh)
 
