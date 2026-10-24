@@ -1,4 +1,4 @@
-# ⚡ Term Undo
+#  Term Undo
 
 **Eliminate terminal error spam and instantly restore lost command buffers** without breaking Kali Linux's two-line Zsh prompt or losing your command history.
 
@@ -6,15 +6,15 @@ Term Undo aims to make terminal command recovery simpler, faster, and more conve
 
 ---
 
-## 🚀 One-Line Instant Installation
+##  One-Line Instant Installation
 
 Install Term Undo with a single command.
 
 **Supported environments:**
-- 🐉 Kali Linux
-- 🐧 Native Linux
-- 🪟 Windows WSL
-- 🔐 Normal User and Root Mode
+-  Kali Linux
+-  Native Linux
+-  Windows WSL
+-  Normal User and Root Mode
 
 ### Installation
 
@@ -32,7 +32,7 @@ source ~/.zshrc
 
 ---
 
-## ✨ Key Goals
+##  Key Goals
 
 - **Instant Command Recovery** — Restore lost command input quickly.
 - **Cleaner Terminal Experience** — Reduce unnecessary terminal clutter during command recovery.
@@ -42,7 +42,7 @@ source ~/.zshrc
 
 ---
 
-## 🛠️ Requirements
+##  Requirements
 
 - Zsh shell
 - `curl` installed
@@ -50,7 +50,7 @@ source ~/.zshrc
 
 ---
 
-## ⚠️ Important Notes
+##  Important Notes
 
 - Review the installation script before executing it if you want to verify what changes it makes.
 - Reload your Zsh configuration after installation.
@@ -58,12 +58,12 @@ source ~/.zshrc
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Nahid Mahmud**
 
 GitHub: [@Nahid-mahmud555](https://github.com/Nahid-mahmud555)
 
-## 📄 License
+##  License
 
 See the repository's [LICENSE](LICENSE) file for licensing information.
