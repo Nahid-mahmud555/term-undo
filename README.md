@@ -1,61 +1,139 @@
-Term-Undo v6.0
+# Term-Undo v6.0
 
-A Lightweight Zsh Utility for Instant Terminal Error Cleanup and Command Recovery
+### A Lightweight Zsh Utility for Instant Terminal Error Cleanup and Command Recovery
 
-Term-Undo is a lightweight and efficient Zsh utility designed to eliminate multi-line terminal error clutter and instantly restore your previous command. It provides a clean and seamless recovery workflow without duplicating prompts or disrupting your shell history.
+Term-Undo is a lightweight Zsh utility designed to simplify terminal error recovery by clearing unwanted multi-line error output and restoring a previously entered command to the input buffer.
 
-Quick Usage
-Method	Description
-Keyboard Shortcut	Press Alt + U to clear the preceding error block and restore your original command to the input buffer.
-Command Alias	Type undo directly into your terminal.
-Tip: Recover your previous command instantly without retyping it or cluttering your terminal.
-One-Line Installation
+It aims to provide a clean and efficient recovery workflow without duplicating prompts, disrupting the existing Zsh configuration, or deleting command history.
 
-Install Term-Undo instantly with a single command in your Zsh terminal.
+## Quick Usage
 
-Installation Command
-bash
+Term-Undo provides two ways to initiate command recovery.
+
+| Method | Description |
+|---|---|
+| Keyboard Shortcut | Press `Alt + U` to trigger terminal cleanup and command recovery. |
+| Command Alias | Type `undo` in your terminal to invoke the recovery workflow. |
+
+**Tip:** Recover your previous command without manually retyping it, where supported by the current shell state and implementation.
+
+## One-Line Installation
+
+Install Term-Undo with a single command in your Zsh terminal.
+
+### Installation Command
+
+```bash
 curl -fsSL https://raw.githubusercontent.com/nahid-mahmud555/term-undo/main/install.sh | bash
+```
 
+### Reload Zsh Configuration
 
 After installation, reload your Zsh configuration:
 
-bash
+```bash
 source ~/.zshrc
+```
 
-Note for Root Users: To enable Term-Undo in your root terminal session, run the installation command while logged in as root.
-Key Features
-Instant Error Removal — Uses ANSI escape sequences to clear up to six lines of terminal error output instantly.
-Command Buffer Restoration — Restores your previously typed command to the input buffer for quick editing and re-execution.
-No Prompt Duplication — Optimized for two-line Zsh prompt configurations, including those commonly used in Kali Linux.
-History Preservation — Keeps your .zsh_history file intact without deleting previously recorded commands.
-Cross-Platform Compatibility — Supports native Linux environments and Windows Subsystem for Linux (WSL/WSL2).
-Simple Workflow — Recover from terminal errors without manually cleaning up output or retyping commands.
-Supported Environments
+This applies the configuration changes to the current shell session.
 
-Term-Undo is designed to work across the following environments:
+### Note for Root Users
 
-Linux: Ubuntu, Debian, Arch Linux, Fedora, and Kali Linux.
-Windows: Windows Subsystem for Linux (WSL and WSL2).
-User Contexts: Regular user accounts and superuser (root) sessions.
-How It Works
-Execute a command in your Zsh terminal.
-If an error produces unwanted multi-line output, press Alt + U or type undo.
-Term-Undo clears the preceding error block.
-Your original command is restored to the input buffer, ready for editing or execution.
+To enable Term-Undo in your root terminal environment, run the installation procedure while operating in the root account's Zsh session.
 
-Result: A cleaner terminal and a faster command recovery workflow.
+```bash
+sudo -i
+```
 
-Author and Maintainer
+Then execute the installation command and reload the root user's Zsh configuration.
 
-Nahid Mahmud
+```bash
+source ~/.zshrc
+```
 
-GitHub Profile: @nahid-mahmud555
-Repository: nahid-mahmud555/term-undo
-License
+Standard users and root users generally have separate shell configuration files. Installing Term-Undo for one account does not necessarily enable it for the other.
 
-Term-Undo is an open-source project released under the MIT License.
+**Security note:** Review the installation script before executing a remotely downloaded script through a shell.
 
-See the MIT License for details.
+## Key Features
 
-Term-Undo v6.0 — Clean Terminal. Quick Recovery.
+### Instant Error Cleanup
+
+Uses terminal control sequences to remove unwanted error output. The number of lines cleared depends on the implementation and the terminal layout.
+
+### Command Buffer Restoration
+
+Designed to restore a previously entered command to the Zsh input buffer, allowing the command to be edited before execution.
+
+### Two-Line Prompt Compatibility
+
+Designed with two-line Zsh prompts in mind, including configurations commonly used in Kali Linux.
+
+### Command History Preservation
+
+Designed to preserve the existing `.zsh_history` file without deleting previously recorded commands.
+
+### Cross-Platform Support
+
+Targets native Linux environments and Windows Subsystem for Linux (WSL/WSL2) running a compatible Zsh configuration.
+
+### Simple Recovery Workflow
+
+Provides keyboard-shortcut and command-based recovery options to reduce manual terminal cleanup and command re-entry.
+
+## Supported Environments
+
+Term-Undo is intended for the following environments, subject to compatibility testing.
+
+| Category | Environments |
+|---|---|
+| Linux Distributions | Kali Linux, Ubuntu, Debian, Arch Linux, Fedora |
+| Windows | WSL and WSL2 |
+| Shell | Zsh |
+| User Contexts | Standard user and root |
+| Prompt Layout | Two-line Zsh prompts |
+
+Compatibility may vary depending on the Zsh version, terminal emulator, key-binding configuration, and installation environment.
+
+## How It Works
+
+The intended recovery workflow consists of the following steps:
+
+1. Execute a command in your Zsh terminal.
+2. If the command produces unwanted multi-line error output, initiate Term-Undo using `Alt + U` or the `undo` command.
+3. Term-Undo runs its configured terminal cleanup and command-recovery logic.
+4. The previous command is restored to the input buffer when recovery is supported by the current implementation.
+5. Review, edit, or execute the restored command as needed.
+
+**Result:** A cleaner terminal and a more convenient command-recovery workflow.
+
+## Requirements
+
+- Zsh shell.
+- `curl` for the one-line installation method.
+- An internet connection during installation.
+- A terminal emulator compatible with the configured keyboard shortcut and terminal control sequences.
+
+## Repository
+
+**Project:** Term-Undo v6.0
+
+**Author and Maintainer:** Nahid Mahmud
+
+**GitHub Profile:** [@nahid-mahmud555](https://github.com/Nahid-mahmud555)
+
+**Repository:** [nahid-mahmud555/term-undo](https://github.com/nahid-mahmud555/term-undo)
+
+**Installation Script:** [install.sh](https://github.com/nahid-mahmud555/term-undo/blob/main/install.sh)
+
+## License
+
+Term-Undo is intended to be released as an open-source project under the MIT License.
+
+See the repository's [LICENSE](LICENSE) file for the complete license terms.
+
+## Final Statement
+
+**Term-Undo v6.0 — Clean Terminal. Quick Recovery.**
+
+A lightweight utility designed to make Zsh command recovery simpler, cleaner, and more efficient.
