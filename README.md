@@ -172,6 +172,14 @@ The intended recovery workflow consists of the following steps:
 
 **Installation Script:** [install.sh](https://github.com/nahid-mahmud555/term-undo/blob/main/install.sh)
 
+---
+
+### 📅 Release Info
+* **Date:** 24 Oct 2026
+* **Environment:** Kali Linux (Zsh)
+
+---
+
 ## License
 
 Term-Undo is intended to be released as an open-source project under the MIT License.
