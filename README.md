@@ -2,6 +2,16 @@
 
 ### A Lightweight Zsh Utility for Instant Terminal Error Cleanup and Command Recovery
 
+# Undo / Alt+u
+
+> Never panic in the terminal again! Instantly undo your last messed-up git command.
+
+<p align="center">
+  <img src="test00.gif" alt="Term-Undo Demo" width="100%" />
+</p>
+
+
+
 Term-Undo is a lightweight Zsh utility designed to simplify terminal error recovery by clearing unwanted multi-line error output and restoring a previously entered command to the input buffer.
 
 It aims to provide a clean and efficient recovery workflow without duplicating prompts, disrupting the existing Zsh configuration, or deleting command history.
