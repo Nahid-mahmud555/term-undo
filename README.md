@@ -36,22 +36,34 @@ source ~/.zshrc
 ```
 
 This applies the configuration changes to the current shell session.
+### 📝 Note for Root Users
 
-### Note for Root Users
+Standard users and the superuser (`root`) maintain separate home directories and shell configuration files (`.zshrc`).
 
-To enable Term-Undo in your root terminal environment, run the installation procedure while operating in the root account's Zsh session.
+- **Standard User:** `/home/username/.zshrc`
+- **Root User:** `/root/.zshrc`
+
+Installing **Term-Undo** under a standard user account does not automatically enable it in the root environment.
+
+If your root terminal defaults to Bash, switch to a Zsh session before running the installation commands.
+
+**Installation for Root Users**
 
 ```bash
+# 1. Switch to root privileges
 sudo -i
-```
 
-Then execute the installation command and reload the root user's Zsh configuration.
+# 2. Start a Zsh session
+zsh
 
-```bash
+# 3. Install Term-Undo
+curl -fsSL https://raw.githubusercontent.com/nahid-mahmud555/term-undo/main/install.sh | bash
+
+# 4. Reload root's Zsh configuration
 source ~/.zshrc
 ```
 
-Standard users and root users generally have separate shell configuration files. Installing Term-Undo for one account does not necessarily enable it for the other.
+**Note:** Run these commands in order. The installation applies to the root user's environment, keeping its configuration separate from your standard user account.
 
 **Security note:** Review the installation script before executing a remotely downloaded script through a shell.
 
