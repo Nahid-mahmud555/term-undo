@@ -188,13 +188,6 @@ We are excited to announce that **Term-Undo v6.0** is officially scheduled to la
 🔗 **Product Hunt Page:** [Term-Undo on Product Hunt](https://www.producthunt.com/products/term-undo?launch=term-undo)
 
 ---
-
-### ⚡ What is Term-Undo?
-Term-Undo is a lightweight CLI productivity tool for **Zsh & Linux** that gives you an instant "panic button" (`Alt + U`) to revert command typos and terminal error spam—without losing your active workspace history or screen context.
-
-* **Learn freely & test fast** without cluttering your terminal.
-* **Keep your workspace context crystal clear!**
-
 > 🔔 **Support the Launch:** Please visit our [Product Hunt Page](https://www.producthunt.com/products/term-undo?launch=term-undo) and click **"Notify Me"** to support us as soon as we go live!
 
 
