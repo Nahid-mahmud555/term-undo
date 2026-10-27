@@ -191,6 +191,11 @@ We are excited to announce that **Term-Undo v6.0** is officially scheduled to la
 > 🔔 **Support the Launch:** Please visit our [Product Hunt Page](https://www.producthunt.com/products/term-undo?launch=term-undo) and click **"Notify Me"** to support us as soon as we go live!
 
 
+## 📰 Articles & Blog Posts
+
+* 📝 **DEV.to:** [Stop retyping broken commands: Term-Undo clears errors and restores your Zsh buffer with Alt+U](https://dev.to/nahid-mahmud555/stop-retyping-broken-commands-term-undo-clears-errors-and-restores-your-zsh-buffer-with-altu-47cc)
+
+
 ## License
 
 Term-Undo is intended to be released as an open-source project under the MIT License.
