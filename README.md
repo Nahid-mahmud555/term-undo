@@ -1,6 +1,6 @@
 # Term-Undo v6.0
 
-### A Lightweight Zsh Utility for Instant Terminal Error Cleanup and Command Recovery jjjj
+### A Lightweight Zsh Utility for Instant Terminal Error Cleanup and Command Recovery 
 
 # Undo / Alt+u
 
