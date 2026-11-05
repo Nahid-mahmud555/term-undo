@@ -4,7 +4,7 @@
 
 # Undo / Alt+u
 
-> Never panic in the terminal again! Instantly undo your last messed-up git command.
+> Never panic in the terminal again! Instantly undo your last messed-up git command. rrr
 
 <p align="center">
   <img src="test00.gif" alt="Term-Undo Demo" width="100%" />
